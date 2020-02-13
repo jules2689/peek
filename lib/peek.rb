@@ -5,7 +5,7 @@ require 'peek/adapters/memory'
 require 'peek/views/view'
 
 module Peek
-  ALLOWED_ENVS = ['development', 'staging'].freeze
+  ALLOWED_ENVS = ['development', 'staging', 'production'].freeze
 
   def self.adapter
     @adapter
